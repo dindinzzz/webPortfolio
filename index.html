@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">My Portfolio</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="layout-nav">
+        <div class="logo"> Denise Santos</div>
+        <div class="layout-menu">
+            <div class="layout-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.png" alt="Denise Santos profile picture"/> 
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Denise D. Santos</h1>
+            <p class="section__text__p2">A Web Developer</p>
+            <div class="btn-container">
+                <button
+                  class="btn btn-color-2"
+                  onclick="window.open('./assets/Creative-Resume.pdf')"
+                >
+                  Download CV
+              </div>
+            </button>
+          </section>
+          <section id="about">
+            <p class="section__text__p1">Get To Know More</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+              <div class="section__pic-container">
+                <img
+                  src="./assets/about-pic.jpg"
+                  alt="Profile picture"
+                  class="about-pic"
+                />
+              </div>
+              <div class="about-details-container">
+                <div class="text-container">
+                  <p>
+                    Hi there! 👋 I'm Denise, 21 years old and I'm an aspiring web developer with a passion of graphic digital design. <br>
+                     A passionate web developer who enjoys developing ideas into fun and interactive websites and applications. </p><br>
+                    <p>My curiosity in creating a website led me to pursue a degree in Information Technology Major in Web Development which has now grown into an interesting career.
+                    I've studied HTML, CSS ,JavaScript and may more languages using frontend and back-end coding.</p><br>
+                    <p>My main objective as a passionate and dedicated in this filed is to continuously improve my abilities and understanding in the ever-growing field of web development. Working also collaboratively by partcipating projects that will help me imporve my skills and work as a team. </p>
+
+                  
+                </div>
+                <div class="about-containers">
+                  <div class="details-container">
+                    <img
+                    src="./assets/goals.png"
+                    alt="Education icon"
+                    class="icon"
+                  />
+                <h3>My Goals</h3>    
+              <p>
+                <ul>
+                <li>Imporve my personal growth and well-being.</li>
+                <li>Explore new ideas.</li>
+                <li>Visualize a positive outcome.</li>
+                <li>Embrace change.</li>
+              </ul>
+            </p>
+            
+            
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>philosophy of education</h3>
+              <p>
+                <ul>
+                <li>Imporve my personal growth and well-being.</li>
+                <li>Explore new ideas.</li>
+                <li>Visualize a positive outcome.</li>
+                <li>Embrace change.</li>
+              </ul>
+            </p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PostgreSQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="experience-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <h2 class="experience-sub-title">Frontend Development</h2>
+                <div class="article-container">
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Wordpress</h3>
+                      <p>Experienced</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Phython</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Angular JS</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+        </div>
+      </div>
+       <!-- Back Button --> 
+  <a href="javascript:history.back()">Go Back</a> 
+  <!-- Alternatively, you can use: <a href="javascript:history.go(-1)">Go Back</a> --> 
+      
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One <br>November 15,2022 </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/dindinzzz/PROJECT-2-MOTORSHOW.git'"
+              >
+                Github
+              </button>
+              <button
+              class="btn btn-color-2 project-btn"
+                  onclick="window.open('./assets/output.pdf')"
+            >
+              Overview of Output
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/project-2.png"
+              alt="Project 2"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Two <br>March 15,2023</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://gotoskincaretutorialwebsite.wordpress.com/'"
+            >
+              Link
+            </button>
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/project-3.png"
+              alt="Project 3"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Three <br>October 4,2023</h2>
+          <p>I've worked with my classmate as a partner which is paticia we created this porfolio website.</p>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="window.open('./assets/output-2.pdf')"
+            >
+              Overview of output
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/project-4.png"
+              alt="Project 1"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Project Four <br>November 15,2023 </h2>
+          <p>We created this as a team the are shane,ezralyn and nicka</p>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="window.open('./assets/output-4.pdf')"
+            >
+              Overview of the Output
+            </button>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/project-5.jpg"
+            alt="Project 2"
+            class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Project Five <br>November 20,2023</h2>
+        <p>We are also a team who crated this website they are dayna,patricia and nickaella.</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://the1901cafe.com/'"
+          >
+            Link
+          </button>
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://the1901cafe.com/wp-admin/theme-install.php?theme=elevated-lite&fbclid=IwAR1ZZZgtqn7aWI-xfaNfHo0SpGsWS28g86XRgGG3Hg6qH6UPiYp0RCuGU2U'"
+          >
+            Using Wordpress
+          </button>
+          </button>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/project-6.png"
+            alt="Project 3"
+            class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Project Six <br>November 17,2023</h2>
+        <p>We are also a team who created this project with jaira,ella and patrica.</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="window.open('./assets/output-6.pdf')"
+          >
+            Overview of output
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Back Button --> 
+  <a href="javascript:history.back()">Go Back</a> 
+  <!-- Alternatively, you can use: <a href="javascript:history.go(-1)">Go Back</a> --> 
+  <section id="projects">
+    <p class="section__text__p1">Browse my Requirements</p>
+    <h1 class="title">Other Requirements</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/transcripts.png"
+              alt="Project 1"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title"></h2>
+          <div class="btn-container">
+            </button>
+            <button
+            class="btn btn-color-2 project-btn"
+                onclick="window.open('./assets/grades.pdf')"
+          >
+            image
+          </button>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/project-2.png"
+            alt="Project 2"
+            class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Project Two <br>March 15,2023</h2>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://gotoskincaretutorialwebsite.wordpress.com/'"
+          >
+            Link
+          </button>
+          </button>
+        </div>
+      </div>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/project-3.png"
+            alt="Project 3"
+            class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Project Three <br>October 4,2023</h2>
+        <p>I've worked with my classmate as a partner which is paticia we created this porfolio website.</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="window.open('./assets/output-2.pdf')"
+          >
+            Overview of output
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assets/project-4.png"
+            alt="Project 1"
+            class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Project Four <br>November 15,2023 </h2>
+        <p>We created this as a team the are shane,ezralyn and nicka</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="window.open('./assets/output-4.pdf')"
+          >
+            Overview of the Output
+          </button>
+      </div>
+    </div>
+    <div class="details-container color-container">
+      <div class="article-container">
+        <img
+          src="./assets/project-5.jpg"
+          alt="Project 2"
+          class="project-img"
+        />
+      </div>
+      <h2 class="experience-sub-title project-title">Project Five <br>November 20,2023</h2>
+      <p>We are also a team who crated this website they are dayna,patricia and nickaella.</p>
+      <div class="btn-container">
+        <button
+          class="btn btn-color-2 project-btn"
+          onclick="location.href='https://the1901cafe.com/'"
+        >
+          Link
+        </button>
+        <button
+          class="btn btn-color-2 project-btn"
+          onclick="location.href='https://the1901cafe.com/wp-admin/theme-install.php?theme=elevated-lite&fbclid=IwAR1ZZZgtqn7aWI-xfaNfHo0SpGsWS28g86XRgGG3Hg6qH6UPiYp0RCuGU2U'"
+        >
+          Using Wordpress
+        </button>
+        </button>
+      </div>
+    </div>
+    <div class="details-container color-container">
+      <div class="article-container">
+        <img
+          src="./assets/project-6.png"
+          alt="Project 3"
+          class="project-img"
+        />
+      </div>
+      <h2 class="experience-sub-title project-title">Project Six <br>November 17,2023</h2>
+      <p>We are also a team who created this project with jaira,ella and patrica.</p>
+      <div class="btn-container">
+        <button
+          class="btn btn-color-2 project-btn"
+          onclick="window.open('./assets/output-6.pdf')"
+        >
+          Overview of output
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Back Button --> 
+<a href="javascript:history.back()">Go Back</a> 
+<!-- Alternatively, you can use: <a href="javascript:history.go(-1)">Go Back</a> --> 
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img
+          src="./assets/email.png"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+        />
+        <p><a href="mailto:examplemail@gmail.com">denisedgsantos0702@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      
+    </nav>
+    <p>Thank You for Visiting My Portfolio</p>
+  </footer>
+    </section>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
